@@ -1,0 +1,95 @@
+/* Categories Start */
+
+.category_bg{
+    width: 92%;
+    margin: auto;
+  }
+
+  /* .hello{
+    border: none;
+  } */
+
+  .category_head{
+    font-size: 2rem; 
+    font-weight: 700;
+    margin-top: 10vh;
+  }
+  
+  #app {
+    height: 100%;
+  }
+  html,
+  body {
+    position: relative;
+    height: 100%;
+  }
+  
+  body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0%;
+  }
+
+  .category-img-bg{
+    overflow: hidden;
+    transform: scale(1);
+    transition: all ease-in-out 0.4s;
+  }
+
+  .category-img-bg:hover{
+    filter: brightness(0.8);
+  }
+
+  .category-slider-img{
+    transition: all 0.8s;
+    transform: scale(1);
+  }
+
+  .category-slider-img:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .card{
+    border: none;
+    border-radius: 0% !important;
+  }
+
+  .category_title{
+    text-transform: uppercase;
+  }
+  
+  .category-slider-img:hover .category_title{
+    background-color: black;
+    color: white;
+    border-radius: 0px 0px 15px 15px;
+  }
+  /* Categories End */
